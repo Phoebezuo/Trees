@@ -1,4 +1,4 @@
-# Assignment 2 - Trees
+# Assignment - Trees
 
 ## Your Task
 
@@ -119,43 +119,3 @@ From the base directory (the one with `node.py` and `tree.py`), run
 ```
 python -m unittest -v tests/test_simple_functions.py
 ```
-
-
-## Working with git
-
-We will be using git to manage the code versioning and submit your work.
-
-If you haven't done much with git, then head over to some of these:
-
-* https://www.atlassian.com/git/tutorials
-* https://learngitbranching.js.org/
-* https://git-scm.com/docs/gittutorial
-* https://try.github.io/
-
-### Workflow.
-
-**Setup**
-
-* Get the code from the repo to your machine:
-
-```
-git clone <url_here>
-```
-
-**Working**
-
-* Do some _things_.
-
-* (Optional) Add the changes of your work by doing either:
-  * ``git add node.py tree.py``  --> this adds all changes to both files.
-  * ``git add -p`` --> steps through changes that you made.
-* Commit the changes, with either:
-  * ``git commit <file_name_here> -m "your commit message here"`` --> commit all changes
-  * ``git commit -p -m "your commit message here"`` --> step through changes and commit.
-* Push your submission, either:
-  * ``git push``
-  * ``git push origin master``
-
-
-When you have successfully pushed your changes, your code will be marked and you will get feedback.
-You can also check your submissions on Ed.
